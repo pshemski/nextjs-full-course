@@ -5,7 +5,7 @@ const nextConfig = (phase) => {
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
       env: {
-        mongodbUsername: 'pmarkowski1980',
+        mongodbUsername: 'testUser',
         mongodbPassword: 'testPassw0rd',
         mongodbClusterName: 'cluster0',
         mongodbDatabase: 'my-site-dev',
